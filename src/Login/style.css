@@ -121,7 +121,7 @@
 }
 
 .form-section form {
-    width: 80%;
+    width: 95%;
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@
 
 .input-label {
     width: 100%;
-    height: 50%;
+    height: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -145,7 +145,7 @@
 
 .input-label input {
     width: 100%;
-    height: 40%;
+    height: 60%;
     padding-inline: 4px;
     
     font-family: var(--font-inter);
@@ -1103,3 +1103,4 @@ input:focus {
 }
 
 
+/* Meu Deus do CÉU, o tanto de linha Jesus Cristo */
