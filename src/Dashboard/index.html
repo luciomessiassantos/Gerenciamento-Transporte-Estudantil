@@ -11,45 +11,77 @@
 <body>
     <main>
         <aside class="side-bar">
-                <div class="profile">
+            <div class="profile">
 
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-ellipsis-v fa-lg"></i>
+            </div>
+        </aside>
+        <section class="info-cards">
+            <div class="info-card">
+                <label for="" class="label-info">Total de alunos na viagem de hoje:</label>
+                <h2 class="content-info">114</h2>
+            </div>
+            <div class="info-card">
+                <label for="" class="label-info">Total de veículos utilizados:</label>
+                <h2 class="content-info">2</h2>
+            </div>
+            <div class="info-card">
+                <label for="" class="label-info">Total de faltas:</label>
+                <h2 class="content-info">32</h2>
+            </div>
+        </section>
+        <section class="today-transport-table">
+            
+            <div class="transport-table-wrap">
+                <table class="transport-table">
+                    <thead>
+                        <tr>
+                            <th contenteditable="true">Veículo</th>
+                            <th contenteditable="true">Total de vagas</th>
+                            <th contenteditable="true">Horário de saída</th>
+                            <th contenteditable="true">Vagas restantes</th>
+                            <th contenteditable="true">Destino</th>
+                            <th class="center">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td contenteditable="true" class="center" data-label="Veículo">Ônibus 101</td>
+                            <td contenteditable="true" class="center" data-label="Total de vagas">40</td>
+                            <td contenteditable="true" class="center" data-label="Horário de saída">08:30</td>
+                            <td contenteditable="true" class="center" data-label="Vagas restantes">12</td>
+                            <td contenteditable="true" class="center" data-label="Destino">Centro / Terminal</td>
+                            <td class="actions" data-label="Ações">
+                                <button class="btn-select"><i class="fa-solid fa-check"></i> Selecionar</button>
+                                <button class="btn-duplicate"><i class="fa-solid fa-copy"></i> Duplicar</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true" class="center" data-label="Veículo">Micro 203</td>
+                            <td contenteditable="true" class="center" data-label="Total de vagas">24</td>
+                            <td contenteditable="true" class="center" data-label="Horário de saída">09:15</td>
+                            <td contenteditable="true" class="center" data-label="Vagas restantes">6</td>
+                            <td contenteditable="true" class="center" data-label="Destino">Bairro A</td>
+                            <td class="actions" data-label="Ações">
+                                <button class="btn-select"><i class="fa-solid fa-check"></i> Selecionar</button>
+                                <button class="btn-duplicate"><i class="fa-solid fa-copy"></i> Duplicar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    </table>
                 </div>
-                <div class="icons">
-                    <i class="fa-solid fa-ellipsis-v fa-lg"></i>
-                </div>
-            </aside>
-            <section class="info-cards">
-                <div class="info-card">
-                    <label for="" class="label-info">Total de alunos na viagem de hoje:</label>
-                    <h2 class="content-info">114</h2>
-                </div>
-                <div class="info-card">
-                    <label for="" class="label-info">Total de veículos utilizados:</label>
-                    <h2 class="content-info">3</h2>
-                </div>
-                <div class="info-card">
-                    <label for="" class="label-info">Total de faltas:</label>
-                    <h2 class="content-info">32</h2>
-                </div>
-            </section>
-            <section class="today-transport-table">
-                </div class="transport">
-                    <p>Onibus 1</p>
-                </div>
-                </div class="transport">
-                    <p>Onibus 2</p>
-                </div>
-                </div class="transport">
-                    <p>Onibus 3</p>
-                </div>
-            </section>
+            
+        </section>
 
-            <nav class="nav-bar">
-                <i class=" fas fa-house"></i>
-                <i class=" fas fa-bus-simple"></i>
-                <i class=" fas fa-people-group"></i>
-                <i class=" fas fa-circle-info"></i>
-            </nav>
+
+        <nav class="nav-bar">
+            <i class=" fas fa-house"></i>
+            <i class=" fas fa-bus-simple"></i>
+            <i class=" fas fa-people-group"></i>
+            <i class=" fas fa-circle-info"></i>
+        </nav>
     </main>
 </body>
 </html>
