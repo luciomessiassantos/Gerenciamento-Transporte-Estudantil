@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../variables.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+            <aside class="side-bar">
+                <div class="profile">
+                </div>
+                <div class="icons">
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fas fa-gear"></i>
+                </div>
+            </aside>
+        <section class="content-section">
+            <section class="content-wrap">
+                <article class="today-transport">
+                    <div class="header">
+                        <label for="">Veículo</label>
+                        <label for="">
+                            Saída: <strong>16:45</strong>
+                        </label>
+                    </div>
+                    <div class="content">
+                        <h1>Ônibus1</h1>
+                        <button>Remover presença</button>
+                    </div>
+
+                </article>
+                <label class="card-label" >Transportes</label>
+                <article class="all-transports">
+                    <table>
+                            <tr>
+                                <th class="first-cell">
+                                    Motorista
+                                </th>
+                                <th>
+                                    Capacidade
+                                </th>
+                                <th>
+                                    Paradas
+                                </th>
+                                <th>
+                                    Saída
+                                </th>
+                                <th class="last-cell">
+                                    Ações
+                                </th>
+                            </tr>
+
+                            <tr class="choosen">
+                                <td>Ônibus1</td> 
+                                <td>51 vagas</td>
+                                <td>Unifip</td>
+                                <td>17:00</td>
+                                <td><button>Solicitar troca</button></td>
+                            </tr>
+                            <tr>
+                                <td>Ônibus2</td> 
+                                <td>40 vagas</td>
+                                <td>Ecisa Itec Unifip</td>
+                                <td>17:00</td>
+                                <td>3 vagas</td>
+                            </tr>
+                            <tr class="full">
+                                <td>Ônibus3</td> 
+                                <td>51 vagas</td>
+                                <td>UEPB UFCG Unifip</td>
+                                <td>16:45</td>
+                                <td>Lotado</td>
+                            </tr>
+    
+                    </table>
+                </article>
+                <label class="card-label" for="">Presença automática</label>
+                <article class="automatic-presence">
+                    <div class="week-day" id="week-day">       
+                        Seg
+                    </div>
+                    <div class="week-day" id="week-day">       
+                        Ter
+                    </div>
+                    <div class="week-day" id="week-day">       
+                        Qua
+                    </div>
+                    <div class="week-day" id="week-day">       
+                        Qui
+                    </div>
+                    <div class="week-day" id="week-day">   
+                        Sex
+                    </div>
+                    <div class="week-day" id="week-day">   
+                        Sab
+                    </div>
+                </article>
+                <article class="calendar">
+                </article>
+
+                <article class="route-map">
+                    <div id="map"></div>
+                </article>
+                <article class="warnings">
+                
+                </article>
+            </section>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+     <script>
+
+
+     </script>
+
+
+</body>
+</html>
