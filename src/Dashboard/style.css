@@ -168,13 +168,22 @@ main {
 
 .transport-table td.center, .transport-table th.center {
     text-align: center;
+}
 
+/* Muda a cor da borda qnd tá em foco :P */
+.transport-table td.center:focus {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: var(--contrast-color);
+    outline: none;
 }
 
 .actions {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    gap: 10px
 }
 
 .actions button {
